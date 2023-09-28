@@ -1,0 +1,13 @@
+ .bigfont {
+    font-family: 'Nunito', sans-serif;
+    font-size: x-large;
+ }
+ body {
+    margin: 0;
+ }
+ .navbar {
+    position: fixed;
+    z-index: 1000;
+    text-align: center;
+    opacity: 75%;
+ }
