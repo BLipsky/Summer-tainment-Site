@@ -1,6 +1,7 @@
  .bigfont {
     font-family: 'Nunito', sans-serif;
     font-size: x-large;
+    font-style: italic;
  }
  body {
     margin: 0;
@@ -10,4 +11,28 @@
     z-index: 1000;
     text-align: center;
     opacity: 75%;
+    width: 100%;
  }
+
+ .bod {
+   text-align: center;
+ }
+ .open {
+   text-align: center;
+   text-decoration-thickness: 120%;
+ }
+ .slide {
+   border-bottom: .5vw solid black;
+   text-shadow: 10vw;
+ }
+ .cont {
+   margin: 5vw;
+   text-align: center;
+ }
+ .dot {
+   border: .3vw dotted black;
+   margin-right: 30vw;
+   margin-left: 30vw;
+ }
+
+ 
