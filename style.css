@@ -35,4 +35,43 @@
    margin-left: 30vw;
  }
 
- 
+ .hover-under-animation {
+  display: inline-block;
+  position: relative;
+  color: #7c7c7c;
+}
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #7c7c7c;
+  transform-origin: bottom right;
+}
+  .navbar{
+    padding: 0;
+  }
+  .navbar .navbar-nav .nav-link{
+    padding: 1em;
+  }
+  .navbar .navbar-nav .nav-item{
+    position: relative;
+  }
+.navbar .navbar-nav .nav-item::after{
+  position: absolute;
+  bottom: 10%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  content:'';
+  background-color: #7c7c7c;
+  width: 0%;
+  height: 4px;
+  transition: all .5s;
+}
+.navbar .navbar-nav .nav-item:hover::after{
+  width: 100%;
+}
