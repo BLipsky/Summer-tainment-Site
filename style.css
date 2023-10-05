@@ -19,7 +19,8 @@
  }
  .open {
    text-align: center;
-   text-decoration-thickness: 120%;
+   text-decoration-thickness: 120vw;
+
  }
  .slide {
    border-bottom: .5vw solid black;
@@ -34,6 +35,43 @@
    margin-right: 30vw;
    margin-left: 30vw;
  }
+
+ .map {
+  padding: auto;
+  margin: auto;
+  background-color:rgb(51, 51, 51);
+ }
+ .map1 {
+  width: 75vw;
+  margin-left: 12vw;
+  border: 1vw dashed rgb(255, 255, 255);
+ }
+.maptext {
+  text-align: center;
+  background-color: #e2e2e2;
+}
+.maptext2 {
+  color: white;
+  text-align: center;
+  margin:5vw;
+  border: .5vw solid rgb(255, 255, 255);
+  padding: 1vw;
+}
+.cont1 {
+background-size: 125%;
+margin: 5vw;
+}
+
+.cont2 {
+  opacity:50%;
+  margin: 0;
+}
+
+
+
+
+
+
 
  .hover-under-animation {
   display: inline-block;
